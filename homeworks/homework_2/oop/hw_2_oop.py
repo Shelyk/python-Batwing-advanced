@@ -3,7 +3,7 @@
 create an instance for each of the animal and call the unique method for it.
 Determine if each of the animal is an instance of the Animals class
 '''
-from abc import abstractclassmethod, ABC
+from abc import abstractmethod, ABC
 
 
 class Animal:
@@ -148,8 +148,148 @@ hiron.get_info_about_Human()
 hiron.hours_sleep()
 hiron.type_of_eat()
 
-#========================================================================================
+#==========================================2.a==============================================
 
 '''2. Create two classes: Person, Cell Phone, one for composition, another one for aggregation.'''
+
+class Person():
+    def __init__(self):
+        rigth_arm = Arm('Rigth')
+        left_arm = Arm("Left")
+        self.arms = [rigth_arm.arms, left_arm.arms]
+        
+class Arm:
+    def __init__(self, arms):
+        self.arms = arms
+
+two_arms = Person()
+print(two_arms.arms)
+
+#==========================================b===============================================
+
+class Cell_Phone:
+    def __init__(self, number):
+        self.number = number
+
+
+class Number:
+    def __init__(self, mobile_operator_code):
+        self.mobile_operator_cod = mobile_operator_code
+
+
+country_number_1 = Number('+380 - to call Ukraine')
+    
+country_number_2 = Number('+90 - to call Turkey')  
+
+country_number_3 = Number('+41 - to call Switzerland')
+
+
+number = [country_number_1.mobile_operator_cod, country_number_2.mobile_operator_cod,
+          country_number_3.mobile_operator_cod]
+numbers = Cell_Phone(number)
+print(numbers.number)
+
+
+# =========================================3===================================================
+
+"""
+    Create regular class taking 8 params on init - 
+    name, last_name, phone_number, address, email, birthday, age, sex
+    Override a printable string representation of Profile class and return: 
+    list of the params mentioned above
+"""
+
+class Profile:
+    def __init__(self, name, last_name, phone_number, address, email, birthday, age, sex):
+        self.name = name
+        self.last_name = last_name
+        self.phone_number = phone_number
+        self.address = address
+        self.email = email
+        self.birthday = birthday
+        self.age = age
+        self.sex = sex
+
+    def __str__(self):
+        list = []
+        for value in self.__dict__.values():
+            list.append(value)
+        return list.__repr__()
+
+person = Profile("Stepan", "Bandera", "+380987654321", "UPA headquarters", "bandera@gmail.com", "01.01.1909",
+                 "111", "man")
+print(person)
+
+#=================================4=============================================================
+
+
+'''
+4.* Create an interface for the Laptop with the next methods: Screen, Keyboard, Touchpad, WebCam, Ports, Dynamics
+and create an HPLaptop class by using your interface.
+'''
+
+class Laptop(ABC):
+    
+    @abstractmethod
+    def screen(self):
+        raise NotImplementedError('Please read documentation!')
+    
+    @abstractmethod
+    def keyboard(self):
+        raise NotImplementedError('Please read documentation!')
+    
+    @abstractmethod
+    def touchpad(self):
+        raise NotImplementedError('Please read documentation!')
+    
+    @abstractmethod
+    def webcam(self):
+        raise NotImplementedError('Please read documentation!')
+    
+    @abstractmethod
+    def ports(self):
+        raise NotImplementedError('Please read documentation!')
+    
+    @abstractmethod
+    def dynamics(self):
+        raise NotImplementedError('Please read documentation!')
+
+class Acer_Nitro5(Laptop):
+    def __init__(self, screen, keyboard, touchpad, webcam, ports, dynamics):
+        self.screen = screen
+        self.keyboard = keyboard
+        self.touchpad = touchpad
+        self.webcam = webcam
+        self.ports = ports
+        self.dynamics = dynamics
+
+    def screen(self):
+        return self.screen
+
+    def keyboard(self):
+        return self.keyboard
+    
+    def touchpad(self):
+        return self.touchpad
+
+    def webcam(self):
+        return self.webcam
+    
+
+    def ports(self):
+        return self.ports
+    
+    def dynamics(self):
+        return self.dynamics
+
+    def get_info(self):
+        print(f"Screen: {self.screen}, keyboard: {self.keyboard}, touchpad: {self.touchpad}, \
+webcam: {self.webcam}, ports: {self.ports}, dynamics: {self.dynamics}")
+
+acer = Acer_Nitro5("Full HD In-plane Switching (IPS)", "Multi-Touch", "Yes", 
+ "1920 x 1080", "USB Type-C", "2.0 DTS X Ultra")
+acer.get_info()
+
+
 
 
