@@ -1,0 +1,94 @@
+from random import *
+
+class Person:
+    def __init__(self, name, age, availability_of_money, having_your_own_home):
+        self.name = name
+        self.age = age
+        self.availability_of_money = availability_of_money
+        self.having_your_own_home = having_your_own_home
+
+class Human(Person):
+    def __init__(self, name, age, availability_of_money, having_your_own_home):
+        super().__init__(name, age, availability_of_money, having_your_own_home)
+
+    def info_about_human(self):
+        print(f'My name is {self.name}, I am {self.age} years old.')
+
+    def make_money(self):
+        make_money = randint(5000, 20000)
+        self.availability_of_money += make_money
+        print(f'I have {make_money} money on my balance now {self.availability_of_money}')
+
+    def buy_house(self, house):
+        if self.availability_of_money >= house.cost:
+            print('I can buy this house')
+        else:
+
+            print("I don't have enough money for this house")
+
+class House:
+    def __init__(self,house_name, area, cost):
+        self.house_name = house_name
+        self.area = area
+        self.cost = cost
+
+
+    def house_info(self):
+        print(f'{self.house_name} area is {self.area}, price is {self.cost}')
+
+
+class SmallHouse(House):
+    def __init__(self, area, cost):
+        super().__init__(area, cost)
+        if self.area >= 40:
+            self.__class__ = House
+        else:
+            pass
+
+class RealtorMeta(type):
+
+    _instances = {}
+
+    def __call__(cls, *args, **kwargs):
+
+        if cls not in cls._instances:
+            instance = super().__call__(*args, **kwargs)
+            cls._instances[cls] = instance
+        return cls._instances[cls]
+
+                
+class Realtor(metaclass=RealtorMeta):    
+    def __init__(self, name, houses, discount):
+        self.name = name
+        self.houses = houses
+        self.discount = discount
+
+    def provide_info(self):
+        for i in self.houses:
+            i.house_info()
+
+    def steal_money(self, human):
+        if randint(1, 10) == 10:
+            print(f'Realtor {self.name} stole my money!')
+        else:
+            print('I am so lucky today!')
+
+    def realtor_discount(self):
+        print(f"I'm is {self.name}, I am your realtor and"
+              f' I wanna give you a {realtor.discount}% purchase discount')
+
+
+human = Human('Yurii', 28, 100, False)
+human.info_about_human()
+human.make_money()
+house1 = House('house 1',randint(39, 150), randint(5000, 20000))
+house2 = House('house 2',randint(39, 150), randint(5000, 20000))
+house3 = House('house 3',randint(39, 150), randint(5000, 20000))
+human.buy_house(house1)
+human.buy_house(house2)
+human.buy_house(house3)
+realtor = Realtor('Robin', [house1, house2, house3], randint(1,20))
+realtor.provide_info()
+realtor.realtor_discount()
+realtor.steal_money(human)
+    
