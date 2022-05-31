@@ -9,16 +9,16 @@ class Person:
         self.having_your_own_home = having_your_own_home
 
     @abstractmethod
-    def info(self):
-        pass
+    def info(self): 
+        raise NotImplementedError('This method was not implemented')
 
     @abstractmethod
     def make_money(self):
-        pass
+        raise NotImplementedError('This method was not implemented')
 
     @abstractmethod
-    def buy_house(self, house):
-        pass
+    def buy_house(self, house):    
+        raise NotImplementedError('This method was not implemented')
 
 class Human(Person):
     def __init__(self, name, age, availability_of_money, having_your_own_home):
@@ -36,7 +36,6 @@ class Human(Person):
         if self.availability_of_money >= house.cost:
             print('I can buy this house')
         else:
-
             print("I don't have enough money for this house")
 
 class House:
@@ -47,18 +46,19 @@ class House:
 
 
     def house_info(self):
-        print(f'{self.house_name} area is {self.area}, price is {self.cost}')
+        if self.area < 40:
+            print('This house is small :(')
+        else:
+            print(f'{self.house_name} area is {self.area}, price is {self.cost}')
 
 
-class SmallHouse(House):
-    def __init__(self, area, cost):
-        super().__init__(area, cost)
+class Small_House(House):
+    def __init__(self,house_name, area, cost):
+        super().__init__(house_name, area, cost)
         if self.area >= 40:
             self.__class__ = House
-        else:
-            pass
 
-class RealtorMeta(type):
+class Realtor_Meta(type):
 
     _instances = {}
 
@@ -70,7 +70,7 @@ class RealtorMeta(type):
         return cls._instances[cls]
 
                 
-class Realtor(metaclass=RealtorMeta):    
+class Realtor(metaclass=Realtor_Meta):    
     def __init__(self, name, houses):
         self.name = name
         self.houses = houses
@@ -91,12 +91,12 @@ class Realtor(metaclass=RealtorMeta):
 human = Human('Yurii', 28, 100, False)
 human.info_about_human()
 human.make_money()
-house1 = House('house №1',randint(39, 150), randint(5000, 20000))
-house2 = House('house №2',randint(39, 150), randint(5000, 20000))
-house3 = House('house №3',randint(39, 150), randint(5000, 20000))
-human.buy_house(house1)
-human.buy_house(house2)
-human.buy_house(house3)
-realtor = Realtor('Robin', [house1, house2, house3])
+house_1 = Small_House('house №1',randint(20, 150), randint(5000, 20000))
+house_2 = Small_House('house №2',randint(20, 150), randint(5000, 20000))
+house_3 = Small_House('house №3',randint(20, 150), randint(5000, 20000))
+human.buy_house(house_1)
+human.buy_house(house_2)
+human.buy_house(house_3)
+realtor = Realtor('Robin', [house_1, house_2, house_3])
 realtor.info()
 realtor.steal_money(human)
