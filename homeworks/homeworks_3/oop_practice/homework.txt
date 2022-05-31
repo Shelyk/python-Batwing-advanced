@@ -71,11 +71,7 @@ class Realtor(metaclass=RealtorMeta):
         if randint(1, 10) == 10:
             print(f'Realtor {self.name} stole my money!')
         else:
-            print('I am so lucky today!')
-
-    def realtor_discount(self):
-        print(f"I'm is {self.name}, I am your realtor and"
-              f' I wanna give you a {realtor.discount}% purchase discount')
+            pass
 
 
 human = Human('Yurii', 28, 100, False)
@@ -89,6 +85,5 @@ human.buy_house(house2)
 human.buy_house(house3)
 realtor = Realtor('Robin', [house1, house2, house3], randint(1,20))
 realtor.provide_info()
-realtor.realtor_discount()
 realtor.steal_money(human)
-3. Steal your money with 10% chance
+
