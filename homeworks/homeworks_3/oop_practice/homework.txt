@@ -1,4 +1,5 @@
 from random import *
+from abc import abstractmethod
 
 class Person:
     def __init__(self, name, age, availability_of_money, having_your_own_home):
@@ -6,6 +7,18 @@ class Person:
         self.age = age
         self.availability_of_money = availability_of_money
         self.having_your_own_home = having_your_own_home
+
+    @abstractmethod
+    def info(self):
+        pass
+
+    @abstractmethod
+    def make_money(self):
+        pass
+
+    @abstractmethod
+    def buy_house(self, house):
+        pass
 
 class Human(Person):
     def __init__(self, name, age, availability_of_money, having_your_own_home):
@@ -58,18 +71,19 @@ class RealtorMeta(type):
 
                 
 class Realtor(metaclass=RealtorMeta):    
-    def __init__(self, name, houses, discount):
+    def __init__(self, name, houses):
         self.name = name
         self.houses = houses
-        self.discount = discount
 
-    def provide_info(self):
+    def info(self):
         for i in self.houses:
             i.house_info()
 
     def steal_money(self, human):
         if randint(1, 10) == 10:
-            print(f'Realtor {self.name} stole my money!')
+            human.availability_of_money = 0
+            print(f'Realtor {self.name} steal my money!')
+
         else:
             pass
 
@@ -77,13 +91,12 @@ class Realtor(metaclass=RealtorMeta):
 human = Human('Yurii', 28, 100, False)
 human.info_about_human()
 human.make_money()
-house1 = House('house 1',randint(39, 150), randint(5000, 20000))
-house2 = House('house 2',randint(39, 150), randint(5000, 20000))
-house3 = House('house 3',randint(39, 150), randint(5000, 20000))
+house1 = House('house №1',randint(39, 150), randint(5000, 20000))
+house2 = House('house №2',randint(39, 150), randint(5000, 20000))
+house3 = House('house №3',randint(39, 150), randint(5000, 20000))
 human.buy_house(house1)
 human.buy_house(house2)
 human.buy_house(house3)
-realtor = Realtor('Robin', [house1, house2, house3], randint(1,20))
-realtor.provide_info()
+realtor = Realtor('Robin', [house1, house2, house3])
+realtor.info()
 realtor.steal_money(human)
-
