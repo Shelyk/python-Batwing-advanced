@@ -51,6 +51,16 @@ class House:
         else:
             print(f'{self.house_name} area is {self.area}, price is {self.cost}')
 
+    def discount(self):
+        if self.cost >= 10000:
+            print('\n', f"Interested house's price is {self.cost}")
+            print('\n', 'Applying discount...', '\n')
+            self.cost = self.cost - 5999
+            print(f"Now house's price is {self.cost}")
+        else:
+            print('There is no discount at this house')
+            pass
+
 
 class Small_House(House):
     def __init__(self,house_name, area, cost):
@@ -86,6 +96,22 @@ class Realtor(metaclass=Realtor_Meta):
 
         else:
             pass
+    
+    def sell_house(self, name, house):
+        if self.discount is True:
+            house.discount()
+            if name.money >= house.cost:
+                print(f'Now i have {name.money} piastres', '\n')
+                name.home = True
+                self.houses.remove(house)
+            else:
+                while name.money < house.cost:
+                    print('I need to work more')
+                    name.make_money()
+                print(f'Now i have {name.money} piastres')
+                name.home = True
+                print(f'Finally i can buy a {house.name}', '\n')
+                self.houses.remove(house)
 
 
 human = Human('Yurii', 28, 100, False)
