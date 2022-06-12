@@ -2,22 +2,22 @@
 
 sudo mysql -u root -p
 
-﻿mysql>CREATE USER 'andrii'@'localhost' IDENTIFIED BY 'qwerty';
-﻿mysql>GRANT ALL PRIVILEGES ON *.* TO "andrii"@"localhost";
+﻿mysql>CREATE USER 'shelyk'@'localhost' IDENTIFIED BY 'qwerty';
+﻿mysql>GRANT ALL PRIVILEGES ON *.* TO "shelyk"@"localhost";
 ﻿mysql>exit
 
-mysql -u andrii -p
+mysql -u shelyk -p
 
 ﻿mysql>CREATE DATABASE school_hw;
 ﻿mysql>exit
 
-mysql -u andrii -p school_hw < school66.sql
+mysql -u shelyk -p school_hw < school66.sql
 
 ------------------------------------------------------------------------------------------
 2. Create table level (В якому класі студент 10, 11) and make relation with students.
 
 
-mysql -u andrii -p
+mysql -u shelyk -p
 
 ﻿mysql>USE school_hw
 ﻿mysql>CREATE TABLE student_level (student_id INT NOT NULL, level INT NOT NULL);
