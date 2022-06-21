@@ -4,7 +4,7 @@ from flask import render_template
 
 @app.route('/')
 def hello_world():
-    a = 'Hello, my friend from the Cursor!'
+    a = 'Hello, my friend from the Cursor!g'
     return render_template('index.html', variable=a)
 
 
