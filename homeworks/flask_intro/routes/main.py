@@ -69,23 +69,26 @@ def delete(id):
     return redirect("/")
 
 
-@app.route("/search")
+@app.route("/search", methods=["POST"])
 def search():
-    email = request.args.get("email")
-    first_name = request.args.get("first_name")
-    last_name = request.args.get("last_name")
-    work_area = request.args.get("work_area")
-
+    res = request.form.get('search')
+    res_lower = res.lower()
     users = get_users()
-    found_users = []
+    final_list = []
 
-    for user in users:
-        if email == user["email"] \
-                or first_name == user["first_name"] \
-                or last_name == user["last_name"] \
-                or work_area == user["work_area"]:
-            found_users.append(user)
-    if found_users:
-         return render_template("search.html", users=found_users)
+    if res == '':
+        final_list = users
     else:
-         return "User not found, enter the correct search data."
+        for user in users:
+            user_str = {str(key): str(val) for key, val in user.items()}
+            user_low = {key.lower(): val.lower() for key, val in user_str.items()}
+            if res_lower in user_low.values():
+                final_list.append(user)
+
+    if len(final_list) < 2:
+        result_cnt = 'result'
+    else:
+        result_cnt = 'results'
+
+    return render_template("search.html", users=final_list, count=len(final_list), result=result_cnt)
+
