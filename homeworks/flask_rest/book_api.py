@@ -26,7 +26,7 @@ def create():
     id = request.json.get('id')
     new_book = db.add(name, author, genre, id)
     if not new_book:
-            return "This book is already exists", http.HTTPStatus.BAD_REQUEST
+        return "This book is already exists", http.HTTPStatus.BAD_REQUEST
     else:
         return new_book, http.HTTPStatus.CREATED
 

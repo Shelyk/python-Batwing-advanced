@@ -1,5 +1,5 @@
 class UserDB:
-    users = [{"name": "test", "email": "test@test.com", "password": "passhash"}]
+    users = [{"name": "test", "email": "test@test.com", "password": "password"}]
 
     def get_all(self):
         return self.users
@@ -11,7 +11,6 @@ class UserDB:
         return None
 
     def add(self, name, email, password_hash):
-        # add check if user already exists
         user = {
             "name": name,
             "email": email,

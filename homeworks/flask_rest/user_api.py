@@ -33,11 +33,9 @@ def update():
     email = request.json.get("email")
     password = request.json.get("password")
     update_user = db.update_by_email(name, email, password)
-
-    if not update_user:
-        return "This user doesn't exists", http.HTTPStatus.BAD_REQUEST
-    else:
-        return "User's data has been changed", http.HTTPStatus.CREATED
+    if update_user is None:
+        return 'A user with this email not found.', http.HTTPStatus.BAD_REQUEST
+    return update_user, http.HTTPStatus.ACCEPTED
 
 
 @user_router.route('/<string:email>', methods=['DELETE'])
