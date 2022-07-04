@@ -40,5 +40,5 @@ def update():
 
 @user_router.route('/<string:email>', methods=['DELETE'])
 def delete(email):
-    erase = db.delete_by_email(email)
-    return erase
+    db.delete_by_email(email)
+    return http.HTTPStatus.NO_CONTENT

@@ -21,8 +21,8 @@ class UserDB:
 
     def update_by_email(self, email, name, password):
         for user in self.users:
-            if user["email"] == email:
-                user["name"] = name
+            if user["name"] == name:
+                user["email"] = email
                 user["password"] = password
                 return user
         return None
