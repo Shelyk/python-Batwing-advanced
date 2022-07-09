@@ -10,10 +10,10 @@ class UserDB:
                 return user
         return None
 
-    def add(self, email, name, password_hash):
+    def add(self, name, email, password_hash):
         user = {
-            "email": email,
             "name": name,
+            "email": email,
             "password": password_hash
         }
         self.users.append(user)
@@ -21,8 +21,8 @@ class UserDB:
 
     def update_by_email(self, email, name, password):
         for user in self.users:
-            if user["email"] == email:
-                user["name"] = name
+            if user["name"] == name:
+                user["email"] = email
                 user["password"] = password
                 return user
         return None

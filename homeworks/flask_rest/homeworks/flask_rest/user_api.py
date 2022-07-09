@@ -20,19 +20,19 @@ def retrieve(email):
 
 @user_router.route('', methods=['POST'])
 def create():
-    email = request.json.get("email")
     name = request.json.get("name")
+    email = request.json.get("email")
     password = request.json.get("password")
-    new_user = db.add(email, name, password)
+    new_user = db.add(name, email, password)
     return new_user, http.HTTPStatus.CREATED
 
 
 @user_router.route('', methods=['PUT'])
 def update():
-    email = request.json.get("email")
     name = request.json.get("name")
+    email = request.json.get("email")
     password = request.json.get("password")
-    update_user = db.update_by_email(email, name, password)
+    update_user = db.update_by_email(name, email, password)
     if update_user is None:
         return 'A user with this email not found.', http.HTTPStatus.BAD_REQUEST
     return update_user, http.HTTPStatus.ACCEPTED
