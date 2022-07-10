@@ -1,5 +1,5 @@
-FROM photon:3.10.5-slim-buster
+FROM python:3.10.5-slim-buster
 
 WORKDIR /app
-COPY docker .
+COPY . .
 RUN pip install -r requirements.txt
