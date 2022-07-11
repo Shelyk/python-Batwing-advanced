@@ -40,7 +40,7 @@ def create():
     except ValidationError as e:
         return {'errors': e.messages}, http.HTTPStatus.UNPROCESSABLE_ENTITY
 
-    return new_user_json
+    return jsonifi(new_user_json)
 
 
 @user_router.route('/<int:id_>', methods=['PUT'])
