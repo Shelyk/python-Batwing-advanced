@@ -2,6 +2,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 from database import db
 from models.user import User
+from models.book import Book
 from main import app
 db = SQLAlchemy(app)
 
