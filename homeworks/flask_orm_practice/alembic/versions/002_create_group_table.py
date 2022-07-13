@@ -1,0 +1,30 @@
+"""002_create_group_table
+
+Revision ID: 002_create_group_table
+Revises: 001_create_user_table
+Create Date: 2022-07-13 17:35:55.210602
+
+"""
+from alembic import op
+import sqlalchemy as sa
+
+
+# revision identifiers, used by Alembic.
+revision = '002_create_group_table'
+down_revision = '001_create_user_table'
+branch_labels = None
+depends_on = None
+
+
+def upgrade() -> None:
+    op.create_table(
+        "grou p",
+        sa.Column("id", sa.Integer, primary_key=True, autoincrement=True),
+        sa.Column("user", sa.String(300), nullable=False, unique=True),
+        sa.Column("description", sa.String(300), nullable=False)
+    )
+    op.add_column("user", sa.Column("group_id", sa.ForeignKey("user")))
+
+
+def downgrade() -> None:
+    pass
