@@ -5,6 +5,7 @@ from database import db
 from serializers.authors import AuthorsSchema
 from marshmallow import ValidationError
 
+
 authors_router = Blueprint('authors', __name__, url_prefix='/authors')
 
 

@@ -5,6 +5,7 @@ from database import db
 from models.book import Book
 from serializers.book import BookSchema
 
+
 book_router = Blueprint('book', __name__, url_prefix='/book')
 
 

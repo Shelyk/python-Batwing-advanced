@@ -8,7 +8,6 @@ Create Date: 2022-07-15 09:30:16.188006
 from alembic import op
 import sqlalchemy as sa
 
-
 # revision identifiers, used by Alembic.
 revision = '002_create_authors_table'
 down_revision = '001_create_book_table'

@@ -22,7 +22,7 @@ def retrieve(id_):
     ba_json = BookAuthorsSchema().dump(ba)
     return jsonify(ba_json)
 
-
+  
 @book_authors.route('/<int:book_id>/<int:author_id>', methods=['POST'])
 def create(book_id, author_id):
     if Book.query.filter(Book.book_id == book_id).first() and Authors.query.filter(Authors.authors_id == author_id).first():

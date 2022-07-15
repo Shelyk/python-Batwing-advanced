@@ -1,6 +1,7 @@
 from database import db
 
 
+
 class BookAuthors(db.Model):
     __tablename__ = 'book_authors'
 

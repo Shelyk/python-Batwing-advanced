@@ -16,6 +16,7 @@ branch_labels = None
 depends_on = None
 
 
+
 def upgrade() -> None:
     op.create_table(
         "book_authors",

@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8b8213-57d9-4fff-8756-30c61ffeae5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/authors_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/book_authors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/authors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/book_authors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serializers/authors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serializers/book_authors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
@@ -61,14 +55,7 @@
       <change beforePath="$PROJECT_DIR$/../flask_orm/serializers/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_orm/serializers/book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_orm/serializers/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_orm/serializers/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_orm/user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_orm/user_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/book_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/book_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serializers/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/serializers/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/book_authors.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/book_authors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_rest/book_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_rest/book_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_rest/db/books_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_rest/db/books_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_rest/db/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_rest/db/db.py" afterDir="false" />

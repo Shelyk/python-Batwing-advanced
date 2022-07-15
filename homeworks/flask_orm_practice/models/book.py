@@ -1,6 +1,7 @@
 from database import db
 
 
+
 class Book(db.Model):
     __tablename__ = 'book'
 
