@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+
+{% if group_id %}
+    <p> Group id is: {{group_id}}</p>
+{% else %}
+    <p> Group name is not defined.</p>
+    {%if groups %}
+        <p> Available groups are:</p>
+        {% for group in groups %}
+            <p>- {{group.name}} with id {{group.id}}</p>
+        {% endfor %}
+    {% endif %}
+{% endif %}
+<form>
+    <label>Name:</label>
+    <input type="text" name="name" value="Yurii"/>
+    <input type="submit" name="test" value="send message" />
+</form>
+
+{% endblock %}

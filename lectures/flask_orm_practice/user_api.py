@@ -14,7 +14,6 @@ user_router = Blueprint('user', __name__, url_prefix='/user')
 @user_router.route('')
 def get():
     user_schema = UserSchema()
-
     users = User.query.order_by(User.email)
     users_json = user_schema.dump(users, many=True)
     return jsonify(users_json)
@@ -31,7 +30,6 @@ def retrieve(id_):
 @user_router.route('', methods=['POST'])
 def create():
     data = request.get_json(force=True)
-
     schema = UserSchema()
     try:
         user_data = schema.load(data)
@@ -84,5 +82,3 @@ def add_to_group(id_, group_id):
         return new_user_json, http.HTTPStatus.OK
     else:
         return {"No group found"}, http.HTTPStatus.BAD_REQUEST
-
-

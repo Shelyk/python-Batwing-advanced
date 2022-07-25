@@ -7,4 +7,4 @@ class Group(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(300), nullable=False, unique=True)
     description = db.Column(db.String(300), nullable=False)
-    users = db.relationship("User")
+    users =db.relationship('User')

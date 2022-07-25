@@ -2,7 +2,7 @@
 
 Revision ID: 002_create_group_table
 Revises: 001_create_user_table
-Create Date: 2022-07-01 17:06:32.545523
+Create Date: 2022-07-13 17:35:55.210602
 
 """
 from alembic import op
@@ -21,9 +21,9 @@ def upgrade() -> None:
         "group",
         sa.Column("id", sa.Integer, primary_key=True, autoincrement=True),
         sa.Column("name", sa.String(300), nullable=False, unique=True),
-        sa.Column("description", sa.String(300), nullable=False),
+        sa.Column("description", sa.String(300), nullable=False)
     )
-    op.add_column("user", sa.Column("group_id", sa.Integer, sa.ForeignKey("group.id")))
+    op.add_column("user", sa.Column("group_id", sa.Integer, sa.ForeignKey("user.id")))
 
 
 def downgrade() -> None:

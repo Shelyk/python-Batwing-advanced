@@ -11,6 +11,7 @@ services:
     depends_on:
       - db
   db:
+    restart: always
     image: postgres:13-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data/
@@ -19,6 +20,7 @@ services:
       - POSTGRES_PASSWORD=hello_flask
       - POSTGRES_DB_NAME=hello_flask
   pgweb:
+    restart: always
     image: sosedoff/pgweb
     ports:
       - "8081:8081"
