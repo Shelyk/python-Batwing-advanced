@@ -13,4 +13,3 @@ PyJWT==2.4.0
 pyparsing==3.0.9
 SQLAlchemy==1.4.39
 Werkzeug==2.1.2
-marshmallow-enum==1.5.1

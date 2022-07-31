@@ -23,7 +23,7 @@ def signin():
             token = jwt.encode(
                 {
                     "user_id": user.id,
-                    "exp": datetime.datetime.utcnow() + datetime.timedelta(minutes=1000)
+                    "exp": datetime.datetime.utcnow() + datetime.timedelta(minutes=90)
                 },
                 Config.SECRET_KEY,
                 algorithm="HS256"

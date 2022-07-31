@@ -12,9 +12,3 @@ def profile(user):
     schema = UserSerializer()
     profile_json = schema.dump(user)
     return profile_json
-
-
-# @user_router.route("/telegram/connect")
-# @token_required
-# def telegram_connect(user):
-#     return "your telegram link"

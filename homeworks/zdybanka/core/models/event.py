@@ -1,3 +1,5 @@
+from sqlalchemy.orm import load_only
+
 from core.database import db
 
 
@@ -9,4 +11,5 @@ class Event(db.Model):
     description = db.Column(db.String, nullable=True)
     starts_at = db.Column(db.DateTime, nullable=False)
     ends_at = db.Column(db.DateTime, nullable=False)
+    creator_id = db.Column(db.Integer, nullable=False)
     users = db.relationship("User", secondary="user_event")
