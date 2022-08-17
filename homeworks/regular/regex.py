@@ -52,7 +52,8 @@ check_ip_address(text)
 #  Invalid Example: 216.8.94, 14.0..139, 153.192.392.84
 
 def check_valid_ip_address(text):
-    pattern = '^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$'
+    pattern = r"^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[" \
+              r"0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
     result = re.match(pattern=pattern, string=text)
     print(result.group()) if result else print('IP Incorrect')
 
