@@ -22,7 +22,7 @@ check_phone_number(test2)
 
 
 def check_email(text):
-    pattern = r"[\wd\.]{1,255}@\w+\.+[\wd\.]{1,255}"
+    pattern = r"(\b[A-Za-z0-9._%/+-]{1,255})+@([A-Za-z0-9]+.[A-Z|a-z]{2,255}\b)"
     result = re.findall(pattern=pattern, string=text)
     print(result)
 
