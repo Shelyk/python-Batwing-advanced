@@ -22,29 +22,41 @@ check_phone_number(test2)
 
 
 def check_email(text):
-    pattern = r"(\b[A-Za-z0-9._%/+-]{1,255})+@([A-Za-z0-9]+.[A-Z|a-z]{2,255}\b)"
+    pattern = r'^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
     result = re.findall(pattern=pattern, string=text)
     print(result)
 
-test = 'test_1@gmail.com, test-2@.gmail.com, test.3@email.com'
 
-check_email(test)
+email_1 = "test_1@gmail.com"
+email_2 = "123_test123@test123_test.test"
+email_3 = "test-2@.gmail.com"
+email_4 = "test_test@.email.com"
 
+check_email(email_1)
+check_email(email_2)
+check_email(email_3)
+check_email(email_4)
 
 # 3.  Write a Python program to remove redundant zeros from an IP address.
 # Example: "216.008.094.196" -> "216.8.94.196"
 
-def check_ip_address(text):
-    pattern = '\d{1,3}[.]\d{1,3}[.]\d{1,3}[.]\d{1,3}'
-    temp_ip = re.findall(pattern=pattern, string=text)
-    ip_address = re.sub(pattern='0', repl='', string=str(temp_ip))
+def check_ip_address(ip):
+    pattern = r'^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$'
+    temp_ip = re.findall(pattern=pattern, string=ip)
+    res_to_str = '.'.join([str(elem) for elem in temp_ip])
+    ip_address = re.sub(r'\b0+(\d)', r'\1', res_to_str)
     print(ip_address)
 
-text = 'My ip - 216.008.094.196'
 
-check_ip_address(text)
+ip_1 = "216.008.094.196"
+ip_2 = "216.010.000.196"
+ip_3 = "200.100.050.000"
+ip_4 = "000.000.000.001"
 
-
+check_ip_address(ip_1)
+check_ip_address(ip_2)
+check_ip_address(ip_3)
+check_ip_address(ip_4)
 # 4.  Write a Python program that check if IP address is valid.
 #
 #  Valid Example: 216.8.94.196, 0.0.0.0, 127.0.0.1
@@ -58,5 +70,6 @@ def check_valid_ip_address(text):
     print(result.group()) if result else print('IP Incorrect')
 
 text = '153.192.192.84'
+
 
 check_valid_ip_address(text)
