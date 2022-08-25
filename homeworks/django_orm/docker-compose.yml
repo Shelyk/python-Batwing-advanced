@@ -12,7 +12,7 @@ services:
        MYSQL_PASSWORD: 'django'
        MYSQL_ROOT_PASSWORD: 'qwerty'
     volumes:
-      - ./docker/mysql/data:/var/lib/mysql
+      - .setup.sql:/docker-entrypoint-initdb.d/setup.sql
 
   web:
     container_name: web

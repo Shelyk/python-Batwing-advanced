@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c46043f1-52be-4602-9677-c39ae07c9ece" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/python-Batwing-advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/python-Batwing-advanced.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="879c0ff0-040d-4174-bbda-4fc1f60e205b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../django_intro/.idea/django_intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/categories/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/categories/cat_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/categories/cat_main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_rest/lectures/tests/.idea/tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/python-Batwing-advanced.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW#10_flask_intro/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HW#10_flask_intro/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW#10_flask_intro/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW#10_flask_intro/docker-compose.yml" afterDir="false" />
@@ -27,6 +36,346 @@
       <change beforePath="$PROJECT_DIR$/../databases/homework" beforeDir="false" afterPath="$PROJECT_DIR$/../databases/homework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../databases/school66.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../databases/school66.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django_intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django_intro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_orm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#ib_16384_0.dblwr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#ib_16384_1.dblwr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo11_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo12_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo13_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo14_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo15_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo16_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo17_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo18_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo19_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo20_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo21_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo22_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo23_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo24_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo25_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo26_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo27_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo28_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo29_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo30_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo31_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo32_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo33_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo34_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo35_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo36_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo37_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo38_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo39_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo40_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_redo/#ib_redo41_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_3.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_4.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_5.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_6.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/auto.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/binlog.000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/binlog.000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/binlog.000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/binlog.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/ca-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/client-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/client-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/auth_group.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/auth_group_permissions.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/auth_permission.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/auth_user.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/auth_user_groups.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/auth_user_user_permissions.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/django_admin_log.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/django_content_type.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/django_migrations.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/django_session.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/main_menuitem.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/django/products_product.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/ibtmp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql.sock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql/general_log_213.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/mysql/slow_log_214.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/accounts_145.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/binary_log_trans_189.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/cond_instances_82.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/data_lock_waits_161.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/data_locks_160.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/error_log_83.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_errors_su_139.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_errors_su_140.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_errors_su_141.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_errors_su_142.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_errors_su_143.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_cu_111.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_hi_112.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_hi_113.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_su_114.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_su_115.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_su_116.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_su_117.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_stages_su_118.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_119.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_120.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_121.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_122.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_123.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_124.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_125.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_126.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_127.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_128.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_129.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_statement_130.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_131.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_132.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_133.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_134.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_135.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_136.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_137.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_transacti_138.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_cur_84.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_his_85.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_his_86.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_sum_87.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_sum_88.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_sum_89.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_sum_90.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_sum_91.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/events_waits_sum_92.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/file_instances_93.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/file_summary_by__94.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/file_summary_by__95.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/global_status_181.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/global_variables_184.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/host_cache_96.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/hosts_146.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/keyring_componen_191.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/keyring_keys_152.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/log_status_174.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/memory_summary_b_154.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/memory_summary_b_155.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/memory_summary_b_156.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/memory_summary_b_157.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/memory_summary_g_153.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/metadata_locks_159.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/mutex_instances_97.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/objects_summary__98.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/performance_time_99.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/persisted_variab_187.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/prepared_stateme_175.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/processlist_100.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_appl_165.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_appl_166.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_appl_167.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_appl_168.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_appl_170.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_appl_171.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_asyn_172.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_asyn_173.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_conn_162.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_conn_164.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_grou_163.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/replication_grou_169.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/rwlock_instances_101.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/session_account__151.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/session_connect__150.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/session_status_182.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/session_variable_185.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/setup_actors_102.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/setup_consumers_103.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/setup_instrument_104.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/setup_objects_105.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/setup_threads_106.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/socket_instances_147.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/socket_summary_b_148.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/socket_summary_b_149.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/status_by_accoun_177.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/status_by_host_178.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/status_by_thread_179.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/status_by_user_180.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/table_handles_158.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/table_io_waits_s_107.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/table_io_waits_s_108.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/table_lock_waits_109.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/threads_110.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/tls_channel_stat_190.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/user_defined_fun_188.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/user_variables_b_176.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/users_144.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/variables_by_thr_183.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/performance_schema/variables_info_186.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/server-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/server-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/sys/sys_config.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/undo_001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/data/undo_002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/nav_sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/nav_sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/nav_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/nav_sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker/homework" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/homework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_intro/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_intro/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_intro/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_intro/config.py" afterDir="false" />
@@ -82,29 +431,241 @@
       <change beforePath="$PROJECT_DIR$/../zdybanka/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../zdybanka/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/deploy/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/deploy/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/django-intro/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-intro/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#ib_16384_0.dblwr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo10" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/django-orm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/django_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/django_project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/django_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/django_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/django_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#ib_16384_0.dblwr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#ib_16384_1.dblwr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo11_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo12_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo13_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo14_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo15_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo16_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo17_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo18_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo19_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo20_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo21_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo22_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo23_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo24_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo25_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo26_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo27_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo28_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo29_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo30_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo31_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo32_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo33_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo34_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo35_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo36_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo37_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo38_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo39_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo40_tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_redo/#ib_redo9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_10.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_2.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_3.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_4.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_5.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_6.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_7.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_8.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/auto.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/binlog.000002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/products_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/products_product.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_3.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_4.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_5.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_6.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/auto.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/binlog.000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/binlog.000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/binlog.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ca-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/client-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/client-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/auth_group.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/auth_group_permissions.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/auth_permission.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/auth_user.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/auth_user_groups.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/auth_user_user_permissions.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/django_admin_log.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/django_content_type.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/django_migrations.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/django_session.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/main_menuitem.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/django/products_product.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/ibtmp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql.sock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql/general_log_213.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/mysql/slow_log_214.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/accounts_145.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/binary_log_trans_189.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/cond_instances_82.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/data_lock_waits_161.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/data_locks_160.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/error_log_83.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_errors_su_139.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_errors_su_140.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_errors_su_141.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_errors_su_142.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_errors_su_143.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_cu_111.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_hi_112.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_hi_113.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_su_114.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_su_115.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_su_116.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_su_117.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_stages_su_118.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_119.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_120.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_121.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_122.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_123.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_124.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_125.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_126.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_127.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_128.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_129.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_statement_130.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_131.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_132.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_133.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_134.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_135.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_136.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_137.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_transacti_138.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_cur_84.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_his_85.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_his_86.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_sum_87.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_sum_88.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_sum_89.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_sum_90.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_sum_91.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/events_waits_sum_92.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/file_instances_93.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/file_summary_by__94.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/file_summary_by__95.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/global_status_181.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/global_variables_184.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/host_cache_96.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/hosts_146.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/keyring_componen_191.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/keyring_keys_152.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/log_status_174.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/memory_summary_b_154.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/memory_summary_b_155.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/memory_summary_b_156.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/memory_summary_b_157.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/memory_summary_g_153.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/metadata_locks_159.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/mutex_instances_97.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/objects_summary__98.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/performance_time_99.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/persisted_variab_187.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/prepared_stateme_175.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/processlist_100.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_appl_165.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_appl_166.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_appl_167.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_appl_168.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_appl_170.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_appl_171.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_asyn_172.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_asyn_173.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_conn_162.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_conn_164.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_grou_163.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/replication_grou_169.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/rwlock_instances_101.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/session_account__151.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/session_connect__150.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/session_status_182.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/session_variable_185.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/setup_actors_102.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/setup_consumers_103.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/setup_instrument_104.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/setup_objects_105.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/setup_threads_106.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/socket_instances_147.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/socket_summary_b_148.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/socket_summary_b_149.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/status_by_accoun_177.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/status_by_host_178.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/status_by_thread_179.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/status_by_user_180.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/table_handles_158.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/table_io_waits_s_107.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/table_io_waits_s_108.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/table_lock_waits_109.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/threads_110.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/tls_channel_stat_190.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/user_defined_fun_188.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/user_variables_b_176.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/users_144.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/variables_by_thr_183.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/performance_schema/variables_info_186.sdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/server-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/server-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/sys/sys_config.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/undo_001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/docker/mysql/data/undo_002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/migrations/0002_auto_20220804_1643.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/migrations/0002_product_display_on_main_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/products/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/templates/main/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/templates/products/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/templates/products/details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/django-orm/wait-for-it.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/docker/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/docker/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/docker/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/flask_intro/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/flask_intro/app.py" afterDir="false" />
@@ -177,6 +738,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -185,14 +754,20 @@
     <setting file="file://$PROJECT_DIR$/django_project/asgi.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/django_project/settings.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/django_project/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/django_project/wsgi.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/main/admin.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/main/tests.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/nginx/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/products/admin.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/products/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/products/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/products/views.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/templates/main/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/products/add.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/products/details.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -203,14 +778,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/yurii/python-Batwing-advanced/homeworks/django_orm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yurii/python-Batwing-advanced/homeworks/django_intro&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+  </component>
   <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
@@ -257,7 +838,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c46043f1-52be-4602-9677-c39ae07c9ece" name="Changes" comment="" />
+      <changelist id="879c0ff0-040d-4174-bbda-4fc1f60e205b" name="Changes" comment="" />
       <created>1659643917585</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
