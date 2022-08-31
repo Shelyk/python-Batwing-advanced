@@ -1,10 +1,10 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
+
 from .models import MenuItem
 from products.models import Product
-from django.contrib.auth.models import User
+
 from django.contrib.auth import authenticate, login, logout
-from django.db.models import Q
+from .forms import SignInForm, SignUpForm
 
 
 def home(request):
@@ -19,28 +19,30 @@ def home(request):
 
 def sign_up(request):
     if request.method == "POST":
-        user = User()
-        user.username = request.POST.get("username")
-        user.email = request.POST.get("email")
-        user.set_password(request.POST.get("password"))
-        user.first_name = request.POST.get("first_name")
-        user.last_name = request.POST.get("last_name")
-        user.is_superuser = False
-        user.is_staff = False
-        user.is_active = True
-        user.save()
-        login(request, user)
-        return redirect("/")
+        form = SignUpForm(request.POST)
+        if form.is_valid():
+            user = form.save(commit=False)
+            user.set_password(form.cleaned_data.get("password"))
+            user = form.save()
+            login(request, user)
+            return redirect("/")
+        else:
+            return render(request, "main/sign-up.html", {"form": form})
     else:
         return render(request, "main/sign-up.html", {})
 
 
 def sign_in(request):
     if request.method == "POST":
-        user = authenticate(request, username=request.POST.get("username"), password=request.POST.get("password"))
-        if user:
-            login(request, user)
-        return redirect("/")
+        form = SignInForm(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data.get("username")
+            password = form.cleaned_data.get("password")
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
+                login(request, user)
+                return redirect("/")
+        return render(request, "main/sign-in.html", {"form": form})
     else:
         return render(request, "main/sign-in.html", {})
 
