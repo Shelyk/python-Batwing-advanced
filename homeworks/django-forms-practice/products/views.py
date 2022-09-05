@@ -8,24 +8,20 @@ def add_product(request):
     if request.user.is_authenticated:
         if request.method == "GET":
             categories = Category.objects.order_by("-id")
-            form = ProductForm(initial={
-                "user": request.user
-            })
+            form = ProductForm(initial={"user": request.user})
             return render(request, "products/add.html", {"form": form, "categories": categories})
         else:
             form = ProductForm(request.POST)
+            print(request.POST)
             if form.is_valid():
                 product = form.save(user=request.user)
                 if request.POST.getlist("categories", False):
-                    print(request.POST.getlist("categories"))
                     for category_id in request.POST.getlist("categories"):
-                        category_id = int(category_id)
                         category = Category.objects.get(id=category_id)
                         category.products.add(product)
                 return redirect("/")
             else:
-                return render(request, "products/add.html", {"form": form})
-
+                return render(request, "products/add.html", {"form": form, "categories": categories})
     else:
         return redirect("/")
 
@@ -42,7 +38,9 @@ def add_category(request):
                 category = Category()
                 category.user = request.user
                 category.title = request.POST.get("title")
-                category.parent_id = int(request.POST.get("parent_category"))
+                category.slug = request.POST.get("slug")
+                if request.POST.get("parent_category", False):
+                    category.parent_id = int(request.POST.get("parent_category"))
                 category.save()
                 return redirect("/")
         else:
@@ -55,7 +53,7 @@ def category_page(request, slug):
         category = Category.objects.get(slug=slug)
     except Category.DoesNotExist:
         raise Http404()
-    return render(request, "products/category_products.html", {"products": category.products.all()})
+    return render(request, "products/category_products.html", {"products": category.products.all})
 
 
 def update_product(request, id):
@@ -66,14 +64,13 @@ def update_product(request, id):
                 categories = Category.objects.order_by("-id")
                 return render(request, "products/update.html", {"product": product, "categories": categories})
             else:
-                product.title = request.POST.get("title", "")
-                product.description = request.POST.get("description", "")
+                product.title = request.POST.get("title", '')
+                product.description = request.POST.get("description", '')
                 product.save()
                 if request.POST.getlist("categories", False):
-                    print(request.POST.getlist("categories"))
                     for category_id in request.POST.getlist("categories"):
-                        category_id = int(category_id)
                         category = Category.objects.get(id=category_id)
                         category.products.add(product)
                 return redirect("/")
-    return redirect("/")
+        else:
+            return redirect("/")

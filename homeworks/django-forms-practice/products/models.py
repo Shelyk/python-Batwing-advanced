@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
 class Product(models.Model):
     title = models.CharField(max_length=255)
     user = models.ForeignKey(User, null=False, on_delete=models.CASCADE)
@@ -15,8 +16,8 @@ class Product(models.Model):
 
 class Category(models.Model):
     title = models.CharField(max_length=255)
-    slug = models.CharField(max_length=100, null=True)
     user = models.ForeignKey(User, null=True, on_delete=models.CASCADE)
+    slug = models.CharField(max_length=100, null=True)
     parent_id = models.IntegerField(null=True, blank=True)
     products = models.ManyToManyField(Product)
 
