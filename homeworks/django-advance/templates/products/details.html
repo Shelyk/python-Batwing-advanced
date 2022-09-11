@@ -1,3 +1,4 @@
+
 {% extends 'base.html' %}
 
 {% block content %}
@@ -11,7 +12,7 @@
     {% if product.user_id == request.user.id %}
         <a href="{% url 'update_product' id=product.id %}" type="button" class="btn btn-primary">Edit</a>
     {% endif %}
-         <a href="{% url 'add_to_cart' product_id=product.id %}" type="button" class="btn btn-lg btn-success">Buy A Course</a>
+         <a href="{% url 'add_to_cart' product_id=product.id %}" type="button" class="btn btn-lg {{ button_status }}">Buy A Course</a>
 
 </div>
 

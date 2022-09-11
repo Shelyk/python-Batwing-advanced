@@ -33,7 +33,9 @@ def add_product(request):
 
 def product_details(request, id):
     product = get_object_or_404(Product, id=id)
-    return render(request, "products/details.html", {"product": product})
+    if product.id in request.session.get("products", []):
+        return render(request, "products/details.html", {"product": product, "button_status": "btn-secondary disabled"})
+    return render(request, "products/details.html", {"product": product, "button_status": "btn-success active"})
 
 
 def add_category(request):
